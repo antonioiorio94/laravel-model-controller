@@ -14,9 +14,10 @@
             @foreach ($movies as $movie)
 
                 <div class="card">
-                    <h2>Title: {{$movie['title']}}</h2>
+                    <h2>{{$movie['title']}}</h2>
                 <p>Original Title: {{$movie['original_title']}}</p>
                 <p>Date of relase: {{$movie['date']}}</p>
+                <p>Country:{{$movie['nationality']}}</p>
                 </div>
 
 

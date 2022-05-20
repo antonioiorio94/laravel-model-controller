@@ -1,6 +1,33 @@
+.card {
+    background-color: aqua;
+    margin: 2rem;
+    padding: 3rem;
+    width: 20rem;
+    border-radius: 20px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container p {
+  margin: 1rem 0 1rem 0;
 }
 

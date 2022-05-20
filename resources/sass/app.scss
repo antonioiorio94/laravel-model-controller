@@ -3,4 +3,25 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+
+    h2 {
+        text-align: center;
+    }
+    p {
+        margin: 1rem 0 1rem 0;
+    }
+}
+
+@import url(partials/card.scss);
